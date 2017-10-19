@@ -54,11 +54,9 @@ the df command is used to see the availble disk space in each of the partitions 
 zip is a command used to compress files into a zip archive. unzip is used to extract files from a zip archive.
 
 
+GitHub, What is Markdown ?
 
-
-
-
-
+-Markdown is a way to style text on the web. you can control the display of the document. you can format the words as bold or italic, add images etc....Mostly markdown is just regular text with a few non-alphabetic characters like # and *. you can use markdown is most places around git hub, like gists comments in issues and pull requests and files with ".md" and ".markdown" extentions
 
 
 
