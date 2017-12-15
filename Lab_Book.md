@@ -53,14 +53,21 @@ the df command is used to see the availble disk space in each of the partitions 
 zip is a command used to compress files into a zip archive. unzip is used to extract files from a zip archive.
 
 
-#GitHub, What is Markdown ?
+#What is Markdown ?
 
 -Markdown is a way to style text on the web. you can control the display of the document. you can format the words as bold or italic, add images etc....Mostly markdown is just regular text with a few non-alphabetic characters like # and *. you can use markdown is most places around git hub, like gists comments in issues and pull requests and files with ".md" and ".markdown" extentions
 
+using a single '#' all the words after it will become a heading
 
+using two * before and after words makes them all bold
 
+using one _ before and after words puts them in italics
 
+using two ~ before and after words puts a line through them. (though I cant seem to get it to work)
 
+#Notes on GitHub
+saving markdown document using commits and github.
+first open terminal and type  _git init_ then navigate into the directory using _Cd_ and _ls_ after making changes to a markdown document  write _git status_ and you can see the files that you have changed. to save these files type _git add_ then the file name. once youve added all the files you want to save type git commit and an appropriate message then _ctrl X_ and _Y_ after this is type _git log_ to check the commit has been made successfully.
 
 #Lab 2, Creating a DC motor.
 
