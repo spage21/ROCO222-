@@ -67,16 +67,15 @@ using two ~ before and after words puts a line through them. (though I cant seem
 
 #Notes on GitHub
 saving markdown document using commits and github.
-first open terminal and type  _git init_ then navigate into the directory using _Cd_ and _ls_ after making changes to a markdown document  write _git status_ and you can see the files that you have changed. to save these files type _git add_ then the file name. once youve added all the files you want to save type git commit and an appropriate message then _ctrl X_ and _Y_ after this is type _git log_ to check the commit has been made successfully.
+first open terminal and type  _git init_ then navigate into the directory using _Cd_ and _ls_ after making changes to a markdown document  write _git status_ and you can see the files that you have changed. to save these files type _git add_ then the file name. once youve added all the files you want to save type git commit and an appropriate message then _ctrl X_ and _Y_ and then hit the enter key. After this is type _git log_ to check the commit has been made successfully.
 
-#Lab 2, Creating a DC motor.
+#Lab 2, Building a DC motor.
 
+Using the kit provided I began building a DC motor out of a cork, a couple of magnets, some copper tape and wire. The cork would act as a core for the DC motor and with two pins in each end it meant that it could spin pretty easily when supported between two paper clips. Next we added two pieces of copper tape to one end of the cork. these two surfaces would act as commutators for the motor. Then we would cut two pieces of multicore wire and use them as brushes. After screwing a couple of paper clips into the wooden base we used them to support 2 magnets on either side of the cork (our motor core). The motor we built ended up working but not very well. The brushes were pretty unreliable because they provided little contact against the commutator. We proceeded to think of some idea's to help improve the motors function. we wanted to get a new core that would have a higher magnetic permability than cork, as in theory this create a stronger magnetic field and make the motor spin better. ideally we wanted to use something like Iron because of its high permability, however finding a suitable sized piece of iron became quiet difficult. 
 
+need pictures.
 
-
-
-
-
+#Lab 3, 
 
 
 
