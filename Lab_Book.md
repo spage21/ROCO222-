@@ -4,7 +4,7 @@ I worked in a pair with Alix Germany (shared most of the pictures)
 
 # Lab 1, Learning to use Ubuntu and Git
 
-# Basic Linux commands
+## Basic Linux commands
 
 **1- ls**
 lists all files and folders in your current directory
@@ -59,7 +59,7 @@ the df command is used to see the availble disk space in each of the partitions 
 zip is a command used to compress files into a zip archive. unzip is used to extract files from a zip archive.
 
 
-# What is Markdown ?
+## What is Markdown ?
 
 -Markdown is a way to style text on the web. you can control the display of the document. you can format the words as bold or italic, add images etc....Mostly markdown is just regular text with a few non-alphabetic characters like # and *. you can use markdown is most places around git hub, like gists comments in issues and pull requests and files with ".md" and ".markdown" extentions
 
@@ -72,7 +72,7 @@ using one _ before and after words puts them in italics
 using two ~ before and after words puts a line through them. (though I cant seem to get it to work)
 
 
-# Notes on GitHub
+## Notes on GitHub
 saving markdown document using commits and github.
 first open terminal and type  _git init_ then navigate into the directory using _Cd_ and _ls_ after making changes to a markdown document  write _git status_ and you can see the files that you have changed. to save these files type _git add_ then the file name. once youve added all the files you want to save type _git commit_ and an appropriate message then _ctrl X_ and _Y_ and then hit the enter key. After this is type _git log_ to check the commit has been made successfully.
 
@@ -82,13 +82,13 @@ Using the kit provided I began building a DC motor out of a cork, a couple of ma
 
 need pictures.
 
-# Problems with the motor
+## Problems with the motor
 - The motor we built ended up working but not very well. The brushes were pretty unreliable because they provided little contact against the commutator.
 - We also had no supports for the wires making it difficult for the brushes to maintain contact with the communtator
 - The cork used for the core of the motor was pretty small, which meant we could only get a small amount of copper wire around it. due to this reason we also couldnt add too many different coils of wire.
 - We used the paperclips to support the magnets, this was pretty unstable and at times the magnets would get stuck to the core if it got to close.
 
-# Improvements we made
+## Improvements we made
 We proceeded to think of some idea's to help improve the motors overall function
 
 **Changes to the Core**
@@ -104,7 +104,9 @@ We proceeded to think of some idea's to help improve the motors overall function
 **Changes to the wire and coils**
 
 - The supports we made to hold the magnets in place were tall enough that we could also use them to support the wires running to the brushes. instead of using multicore wire touching against some copper tape as our brush-commutator system we thought we could get a bigger contact surface area if we attached the wire directly too some more copper tape and use them as the brushes instead.
-- 
+- Instead of using 1 coil of wire we decided to use 4 instead this way we would create a stronger magnetic field around the core and hopefully improve our motors function. To help the multiple cores stay in place a bit better we used a hack saw to cut little grooves into the edge of the rolling pin.
+- we connected two of the coils together this way we only had 4 commutators. having more commutators is good because it provides more surface area for the brushes and makes the overall motor performance smoother.
+ 
 
 # Lab 3,
 to add the encoder into our motor design we printed off another piece of card about the same width and height as the two that supported each end of the motor core. We also printed off a small disc with a section removed from the edge. The first bigger piece we stuck onto the edge of the base near one end of the rolling pin. This would be where we would mount the encoder. A short distance infront of this piece of card was the end of the rolling pin we stuck the small disc onto the end of the rolling pin handle this meant that as the motor rotated so would the small disc. With the encoder mounted near by we could use it to accurately measure when the motor had done 1 rotation. 
@@ -129,6 +131,7 @@ Micro-stepping involves gradually increasing and decreasing the current across t
 **Designing and Building the robot arm**
 
 first we set up the servos by attaching them to pieces of cardboard. We used the 'mapping' function in arduino to control the movement of the servo so that it was proportional to the value coming off of the potentialomete. Once we were happy with this we proceeded to move onto building our arm. In solid works we designed various pieces that would make up our arm which we aimed to export and 3D print. We designed the arm so that it would have 3 degrees of motion. This means there would be 1 servo at the base controlling with direction the arm would face. We positioned the second servo pretty much on the base too but this time it was on its side so that it would move the arm up and down at an angle. The third servo we positioned about half way up the arm which served almost like the elbow joint of a human arm. Giving us another degree of movement up and down. We left the plastic at the end of the arm a certain shape as we wished to slot different things into it but never got round to it. 
+
 
 
 
