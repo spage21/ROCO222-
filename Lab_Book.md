@@ -80,7 +80,9 @@ first open terminal and type  _git init_ then navigate into the directory using 
 
 Using the kit provided I began building a DC motor out of a cork, a couple of magnets, some copper tape and wire. The cork would act as a core for the DC motor and with two pins in each end it meant that it could spin pretty easily when supported between two paper clips. Next we added two pieces of copper tape to one end of the cork. these two surfaces would act as commutators for the motor. Then we would cut two pieces of multicore wire and use them as brushes. After screwing a couple of paper clips into the wooden base we used them to support 2 magnets on either side of the cork (our motor core). 
 
-need pictures.
+![parts](https://github.com/spage21/ROCO222-/blob/master/Images/26754437_10154941834546809_1386410147_n.jpg)
+
+![parts](https://github.com/spage21/ROCO222-/blob/master/Images/26754690_10154941834511809_2144723545_n.jpg)
 
 ## Problems with the motor
 - The motor we built ended up working but not very well. The brushes were pretty unreliable because they provided little contact against the commutator.
@@ -98,21 +100,34 @@ We proceeded to think of some idea's to help improve the motors overall function
 **Changes to the Structure**
 
 - Using the laser cutter we designed and cut out a new base and support structure out for card for our motor. we designed it all on solid works and measured it precisely. We designed it so that all the pieces of card slotted together, although we did re-enforce them with the glue gun.
+
+![parts](https://github.com/spage21/ROCO222-/blob/master/Images/26696658_1931663113519942_742603112_n.jpg)
+
 - We made mounts for the 4 magnets because our core was quite long we seperated all 4 magnets so we would have a stronger field over the length of the core. The mounts were 4 pieces of card that we would press together. two piece of card had holes in where the magnet would sit. Each magnet was about as thick as two pieces of card. once we held the magnets in place we pressed all the pieces of card together and sealed them shut with some tape and bit of glue.
+
+![parts](https://github.com/spage21/ROCO222-/blob/master/Images/26754016_1931663123519941_1457089464_n.jpg)
+
 - At either end of the core we had a rectangular piece of card with a hole remove from the centre. we used this to support the rolling pin core. Using sand paper we had to sand down the ends of the rolling pin a little bit to get them to slot into the holes. The handles on the end of the rolling pin were wider at the edges then got thinner, this was good as we only sanded it down so that the widest part was just able to fit through the hole in the card. This hopefully means that the core wont come off very easily.
   
 **Changes to the wire and coils**
 
 - The supports we made to hold the magnets in place were tall enough that we could also use them to support the wires running to the brushes. instead of using multicore wire touching against some copper tape as our brush-commutator system we thought we could get a bigger contact surface area if we attached the wire directly too some more copper tape and use them as the brushes instead.
 - Instead of using 1 coil of wire we decided to use 4 instead this way we would create a stronger magnetic field around the core and hopefully improve our motors function. To help the multiple cores stay in place a bit better we used a hack saw to cut little grooves into the edge of the rolling pin.
+
+![part](https://github.com/spage21/ROCO222-/blob/master/Images/19114748_1931663140186606_1433455176_n.jpg)
+
 - we connected two of the coils together this way we only had 4 commutators. having more commutators is good because it provides more surface area for the brushes and makes the overall motor performance smoother.
  
+![parts](https://github.com/spage21/ROCO222-/blob/master/Images/26794247_10154941832566809_612320813_n.jpg)
 
 # Lab 3,
 to add the encoder into our motor design we printed off another piece of card about the same width and height as the two that supported each end of the motor core. We also printed off a small disc with a section removed from the edge. The first bigger piece we stuck onto the edge of the base near one end of the rolling pin. This would be where we would mount the encoder. A short distance infront of this piece of card was the end of the rolling pin we stuck the small disc onto the end of the rolling pin handle this meant that as the motor rotated so would the small disc. With the encoder mounted near by we could use it to accurately measure when the motor had done 1 rotation. 
 
 # Lab 4, 
 Controlling the DC motor, with motor shield and using arduino to program it.
+
+![motor](https://github.com/spage21/ROCO222-/blob/master/Images/26794247_10154941834566809_464340365_n.jpg)
+
 
 # Lab 5,
 Programming a stepper motor to function usuing
@@ -132,11 +147,17 @@ Micro-stepping involves gradually increasing and decreasing the current across t
 
 first we set up the servos by attaching them to pieces of cardboard. We used the 'mapping' function in arduino to control the movement of the servo so that it was proportional to the value coming off of the potentialomete. Once we were happy with this we proceeded to move onto building our arm. In solid works we designed various pieces that would make up our arm which we aimed to export and 3D print. We designed the arm so that it would have 3 degrees of motion. This means there would be 1 servo at the base controlling with direction the arm would face. We positioned the second servo pretty much on the base too but this time it was on its side so that it would move the arm up and down at an angle. The third servo we positioned about half way up the arm which served almost like the elbow joint of a human arm. Giving us another degree of movement up and down. We left the plastic at the end of the arm a certain shape as we wished to slot different things into it but never got round to it. 
 
+![parts](https://github.com/spage21/ROCO222-/blob/master/Images/26803788_1931663106853276_1575356758_n.jpg)
 
+![arm](https://github.com/spage21/ROCO222-/blob/master/Images/26803364_1931663090186611_1081940530_n.jpg)
 
+![part](https://github.com/spage21/ROCO222-/blob/master/Images/18835251_1931663086853278_1902107370_n.jpg)
 
+![part](https://github.com/spage21/ROCO222-/blob/master/Images/26696865_1931663066853280_1812913557_n.jpg)
 
+![parts](https://github.com/spage21/ROCO222-/blob/master/Images/26754273_1931663083519945_965877328_n.jpg)
 
+![parts](https://github.com/spage21/ROCO222-/blob/master/Images/26754964_1931663093519944_1812356773_n.jpg)
 
 
 
