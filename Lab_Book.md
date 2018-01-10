@@ -89,17 +89,20 @@ need pictures.
 - We used the paperclips to support the magnets, this was pretty unstable and at times the magnets would get stuck to the core if it got to close.
 
 # Improvements we made
-We proceeded to think of some idea's to help improve the motors overall function. 
+We proceeded to think of some idea's to help improve the motors overall function
 
-# Changes to the Core
+**Changes to the Core**
+
 - We wanted to get a new core that would have a higher magnetic permability than cork, as in theory this would create a stronger magnetic field and make the motor spin better. Ideally we wanted to use something like Iron because of its high permability, however finding a suitable sized piece of iron became quite difficult so instead we used a small wooden rolling pin. Although the permability was probably around the same as the cork our new core was much larger. This meant we could get more coils of wire around it. The handles at the end also helped us support the motor.
 
-# Changes to the Structure
+**Changes to the Structure**
+
 - Using the laser cutter we designed and cut out a new base and support structure out for card for our motor. we designed it all on solid works and measured it precisely. We designed it so that all the pieces of card slotted together, although we did re-enforce them with the glue gun.
 - We made mounts for the 4 magnets because our core was quite long we seperated all 4 magnets so we would have a stronger field over the length of the core. The mounts were 4 pieces of card that we would press together. two piece of card had holes in where the magnet would sit. Each magnet was about as thick as two pieces of card. once we held the magnets in place we pressed all the pieces of card together and sealed them shut with some tape and bit of glue.
 - At either end of the core we had a rectangular piece of card with a hole remove from the centre. we used this to support the rolling pin core. Using sand paper we had to sand down the ends of the rolling pin a little bit to get them to slot into the holes. The handles on the end of the rolling pin were wider at the edges then got thinner, this was good as we only sanded it down so that the widest part was just able to fit through the hole in the card. This hopefully means that the core wont come off very easily.
   
-# Changes to the wire and coils
+**Changes to the wire and coils**
+
 - The supports we made to hold the magnets in place were tall enough that we could also use them to support the wires running to the brushes. instead of using multicore wire touching against some copper tape as our brush-commutator system we thought we could get a bigger contact surface area if we attached the wire directly too some more copper tape and use them as the brushes instead.
 - 
 
@@ -124,6 +127,7 @@ Micro-stepping involves gradually increasing and decreasing the current across t
 # Lab 6 and 7
 
 **Designing and Building the robot arm**
+
 first we set up the servos by attaching them to pieces of cardboard. We used the 'mapping' function in arduino to control the movement of the servo so that it was proportional to the value coming off of the potentialomete. Once we were happy with this we proceeded to move onto building our arm. In solid works we designed various pieces that would make up our arm which we aimed to export and 3D print. We designed the arm so that it would have 3 degrees of motion. This means there would be 1 servo at the base controlling with direction the arm would face. We positioned the second servo pretty much on the base too but this time it was on its side so that it would move the arm up and down at an angle. The third servo we positioned about half way up the arm which served almost like the elbow joint of a human arm. Giving us another degree of movement up and down. We left the plastic at the end of the arm a certain shape as we wished to slot different things into it but never got round to it. 
 
 
