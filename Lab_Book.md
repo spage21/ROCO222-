@@ -1,4 +1,5 @@
-# ROCO222 Lab Journal, Sam Page
+# ROCO222 Lab Journal, 
+Sam Page, Student num: 10528757
 I worked in a pair with Alix Germany (shared most of the pictures)
 
 # Lab 1, Learning to use Ubuntu and Git
@@ -101,10 +102,40 @@ We proceeded to think of some idea's to help improve the motors overall function
 - The supports we made to hold the magnets in place were tall enough that we could also use them to support the wires running to the brushes. instead of using multicore wire touching against some copper tape as our brush-commutator system we thought we could get a bigger contact surface area if we attached the wire directly too some more copper tape and use them as the brushes instead.
 - Extra coils and 
 
+#Lab 3,
+to add the encoder into our motor design we printed off another piece of card about the same width and height as the two that supported each end of the motor core. We also printed off a small disc with a section removed from the edge. The first bigger piece we stuck onto the edge of the base near one end of the rolling pin. This would be where we would mount the encoder. A short distance infront of this piece of card was the end of the rolling pin we stuck the small disc onto the end of the rolling pin handle this meant that as the motor rotated so would the small disc. With the encoder mounted near by we could use it to accurately measure when the motor had done 1 rotation. 
+
+#Lab 4, 
+Controlling the DC motor, with motor shield and using arduino to program it.
+
+#Lab 5,
+Programming a stepper motor to function usuing 
+- Full-step,
+The motor is operated with only one phase on at a time, this therefore uses the least amount of power
+- Double-step,
+The motor has 2 phases on at a time this provides better torque and speed peformance than full-step but uses twice the power. 
+- Half-step,
+Is a combination of Double-step and Full-step first just one phase will be on then a combination of two phases will be on then just one again. This creates a smoother transition between steps.
+- Micro-step,
+Micro-stepping involves gradually increasing and decreasing the current across two of the coils so that the tranistion between steps is really smooth. This however reduces speed and torque quite a lot.
+
+
+#Lab 6 and 7
+Making the robot arm
+
+first we set up the servos by attaching them to pieces of cardboard. We used the 'mapping' function in arduino to control the movement of the servo so that it was proportional to the value coming off of the potentialomete. Once we were happy with this we proceeded to move onto building our arm. In solid works we designed various pieces that would make up our arm which we aimed to export and 3D print. We designed the arm so that it would have 3 
 
 
 
-#Lab 3, 
+
+
+
+
+
+
+
+
+
 
 
 
